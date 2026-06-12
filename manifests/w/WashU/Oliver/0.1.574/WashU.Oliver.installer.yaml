@@ -15,7 +15,6 @@ InstallerSwitches:
   SilentWithProgress: /S
 ElevationRequirement: elevationRequired
 UpgradeBehavior: install
-ReleaseDate: 2026-06-11
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/ta-tools/oliver-release/releases/download/v0.1.574/Oliver-Setup-0.1.574-win-x64.exe
