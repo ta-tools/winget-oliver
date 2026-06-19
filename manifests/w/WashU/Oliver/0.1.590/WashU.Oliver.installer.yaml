@@ -1,0 +1,27 @@
+PackageIdentifier: WashU.Oliver
+PackageVersion: 0.1.590
+InstallerLocale: en-US
+Platform:
+  - Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+ElevationRequirement: elevationRequired
+UpgradeBehavior: install
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/ta-tools/oliver-release/releases/download/v0.1.590/Oliver-Setup-0.1.590-win-x64.exe
+    InstallerSha256: 7D75975C627E0B8A924397DABA8432AEA2E6258FFCD4ABCCA9C96D3C421C71FD
+    AppsAndFeaturesEntries:
+      - DisplayName: Oliver
+        Publisher: Steven Sparks
+        ProductCode: Oliver
+ManifestType: installer
+ManifestVersion: 1.6.0
