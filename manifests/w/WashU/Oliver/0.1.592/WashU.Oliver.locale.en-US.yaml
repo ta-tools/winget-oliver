@@ -1,0 +1,21 @@
+PackageIdentifier: WashU.Oliver
+PackageVersion: 0.1.592
+PackageLocale: en-US
+Publisher: Steven Sparks
+PublisherUrl: https://github.com/ta-tools
+PublisherSupportUrl: https://github.com/ta-tools/oliver-release/issues
+PackageName: Oliver
+PackageUrl: https://github.com/ta-tools/oliver-release
+License: Proprietary
+Copyright: (C) Steven Sparks / Washington University in St. Louis
+ShortDescription: AskWashU APIM Explorer — chat, MCP test bench, and a local API proxy so any OpenAI/Anthropic/Google tool can use the WashU gateway.
+Moniker: oliver
+Tags:
+  - washu
+  - apim
+  - ai
+  - llm
+  - mcp
+  - proxy
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
